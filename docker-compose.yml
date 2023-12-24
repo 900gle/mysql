@@ -1,8 +1,8 @@
 version: '3'
 services:
   db:
-    image: mysql:8.0
-    container_name: mysql-ramos
+    image: mysql:latest
+    container_name: mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
